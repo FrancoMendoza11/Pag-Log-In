@@ -117,7 +117,9 @@ section{
 
 section img{
     margin-left: 50px; 
-    height: 530px;
+    margin-top: 50px;
+    height: 600px;
+    width: 900px;
 }
 
 
@@ -127,8 +129,8 @@ section img{
     left: 54%;
     transform: translate(-50%,-50%);
     backdrop-filter: blur(50px);
-    height: 35%;
-    width: 750px;
+    height: 26%;
+    width: 85%;
 }
 
 .textleft{
