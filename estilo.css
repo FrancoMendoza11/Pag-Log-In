@@ -1,0 +1,208 @@
+ @import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Hind&family=Norican&family=Pacifico&family=Sacramento&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;;
+}
+
+.container{
+   margin-left: 80px;
+   display: inline-block;
+}
+
+.titulos{
+    margin-bottom: 20px;
+    color:  #000123 
+}
+
+
+form{
+    display: inline-block;
+    padding: 130px 0 0 100px;
+}
+
+
+
+input{
+    margin-top: 40px;
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px;
+}
+
+label{
+    margin-top: 15px;
+    position:absolute
+}
+
+.check{
+    margin-top: 3px;   
+}
+
+.cuadrado{
+   height: 15px; 
+   width: 15px;
+}
+
+.forgot{
+    margin-left: 20px;  
+    text-decoration: none;
+}
+
+
+.signin, .google{
+    margin-top: 10px;
+}
+
+.signButton{
+    height: 40px;
+    width: 315px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px;
+    background-color:#000123;
+    color:white;
+    font-size: 15px;
+}
+
+.signButton:hover{
+    cursor: pointer;
+}
+
+.google{
+    align-items: center;
+}
+
+.googleButton{
+    height: 40px;
+    width: 315px;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 5px;
+    font-size: 15px;
+    background-color: white;
+    border-color: #E4E4E8;
+}
+
+.googleButton:hover{
+    cursor: pointer;
+}
+
+.googlelogo{
+    max-width: 20px;
+    margin-right: 10px;
+}
+
+.registro{
+     text-decoration: none;
+}
+
+.signFree{
+    margin: 20px 25px;
+}
+
+
+/* comienza la seccion de la imagen de la derecha */
+
+
+section{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+section img{
+    margin-left: 50px; 
+    height: 530px;
+}
+
+
+.textoimg{
+    position: absolute;
+    top: 80%;
+    left: 54%;
+    transform: translate(-50%,-50%);
+    backdrop-filter: blur(50px);
+    height: 35%;
+    width: 750px;
+}
+
+.textleft{
+    position: absolute;
+    top: 75%;
+    left: 18%;
+    transform: translate(-50%,-50%);
+
+}
+
+.textleft2{
+    margin-top: 10px;
+    position: absolute;
+    top: 80%;
+    left: 19%;
+    transform: translate(-50%,-50%);
+}
+
+.textleft3{
+    position: absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-50%,-50%);
+
+}
+
+
+.estrellas{
+    position: absolute;
+    top: 75%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+
+}
+
+.flecha1{
+    position: absolute;
+    top: 90%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.flecha2{
+    position: absolute;
+    top: 90%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+}
+
+.letragrande{
+    font-size: 20px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.nombre{
+   margin-top: 10px;
+}
+
+.letrachica{
+    font-size: 18px;
+}
+
+.letrachica2{
+    font-size: 18px;
+}
+
+.flecha1 svg{
+    height: 40px;
+    width: 40px;
+}
+
+.flecha2 svg{
+    height: 40px;
+    width: 40px;
+    margin-left: 80px;
+}
