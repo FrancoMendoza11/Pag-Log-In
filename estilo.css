@@ -7,8 +7,9 @@
 }
 
 .container{
-   margin-left: 80px;
+   margin-left: 70px;
    display: inline-block;
+   flex-basis:50%;
 }
 
 .titulos{
@@ -113,6 +114,7 @@ section{
     position: relative;
     text-align: center;
     color: white;
+
 }
 
 section img{
@@ -152,9 +154,9 @@ section img{
 .textleft3{
     position: absolute;
     top: 90%;
-    left: 20%;
+    left: 18%;
     transform: translate(-50%,-50%);
-
+    
 }
 
 
@@ -191,10 +193,6 @@ section img{
 }
 
 .letrachica{
-    font-size: 18px;
-}
-
-.letrachica2{
     font-size: 18px;
 }
 
